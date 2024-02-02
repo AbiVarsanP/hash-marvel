@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Know More</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body bgcolor="black" style="color: white;">
+
+    <!--navbar-->
+
+    <nav class="navbar">
+
+        <div class="menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars" style="color: white;"></i>
+        </div>
+
+        <h1 style="color: red;">HASH MARVEL</h1>
+
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="marvel.html">| HOME</a></p>
+            <p class="navbar-link"><a href="https://en.wikipedia.org/wiki/Marvel_Cinematic_Universe">| WIKIPEDIA</a></p>
+            <p class="navbar-link"><a href="comming.html">| UPDATES</a></p>
+            <p class="navbar-link"><a href="">| NEWS</a></p>
+        </div>
+
+    </nav>
+    <hr>
+
+    <!--side nav-->
+    <div class="side-nav">
+        <p class="xmark" style="text-align: right;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-nav-bar">
+            <p class="side-nav-bar-links"><a href="marvel.html">HOME</a></p>
+            <p class="side-nav-bar-links"><a href="https://en.wikipedia.org/wiki/Marvel_Cinematic_Universe">WIKIPEDIA</a></p>
+            <p class="side-nav-bar-links"><a href="comming.html">UPDATES</a></p>
+            <p class="side-nav-bar-links"><a href="">NEWS</a></p>
+        </div>
+    </div>
+
+<!--latest box-->
+<div class="latest">
+    <h1>LATEST RELEASE | </h1>
+    <h3 style="color: red;">ECHO</h3>
+</div>
+
+<div class="latest-update-box">
+    <div class="latest-update">
+        <img src="img/echoo.jpeg" class="img">
+    </div>
+
+    <div class="total">
+        <div class="title">
+            <h1>TITLE</h1>
+            <h2 style="color: red;">ECHO</h2>
+            <p>| SERIES</p>
+            <h3>EPISODES : 5</h3>
+            <P>
+            <h4 style="color: red;">First episode date:</h4> 9 January 2024 (USA)</P>
+        </div>
+
+        <div class="details">
+            <h1>DETAILS</h1>
+            <h4 style="color: red;">Cinematography:</h4>Kira Kelly; Magdalena Gorka</p>
+            <h4 style="color: red;">Editors:</h4>
+            <p>Chris McCaleb; Joel Pashby; Amelia Allwarden; Shelby Hall; Tania Goding</p>
+            <h4 style="color: red;">Genre:</h4> Action-adventure; Crime; Superhero</p>
+        </div>
+
+        <div class="overview" >
+            <h1>OVERVIEW</h1>
+            <p style="color: red;">
+                Maya Lopez's ruthless behavior in New York City catches up with her in her hometown; she must face her past, reconnect with her Native American roots and embrace the meaning of family and community.
+            </p>
+            
+            <!--<p style="color: red;">Maya Lopez's ruthless behavior in New York</p>
+            <p style="color: red;"> City catches up with her in her hometown;</p>
+            <p style="color: red;">she must face her past, reconnect with her</p>
+            <p style="color: red;">Native American roots and embrace the</p>
+            <p style="color: red;">meaning of family and community.</p>-->
+            
+        </div>
+    </div>
+</div>
+<hr>
+
+<div class="cast">
+    <h1 style="padding: 10px;">CAST</h1>
+    <div class="casting" id="movies">
+
+        <div class="movie-box">
+            <img src="img/maya.jpeg" width="100px">
+            <p>Alaqua Cox</p>
+            <p style="color: grey;">Maya Lopez/Echo</p>
+        </div>
+
+        <div class="movie-box">
+            <img src="img/pin.jpeg" width="100px">
+            <p>Vincent D'Onofrio</p>
+            <p style="color: grey;">Kingpin</p>
+        </div>
+
+        <div class="movie-box">
+            <img src="img/bonnie.jpeg" width="100px">
+            <p>Devery Jacobs</p>
+            <p style="color: grey;">Bonnie</p>
+        </div>
+
+        <div class="movie-box">
+            <img src="img/henry.jpeg" width="100px">
+            <p>Chaske Spencer</p>
+            <p style="color: grey;">Henry</p>
+        </div>
+
+        <div class="movie-box">
+            <img src="img/chula.jpeg" width="100px">
+            <p>Tantoo Cardinal</p>
+            <p style="color: grey;">Chula</p>
+        </div>
+
+        <div class="movie-box">
+            <img src="img/matt.jpeg" width="100px">
+            <p>Charlie Cox</p>
+            <p style="color: grey;">Matt Murdock</p>
+        </div>
+
+        <div class="movie-box">
+            <img src="img/cousin.jpeg" width="100px">
+            <p>Cody Lightning</p>
+            <p style="color: grey;">Cousin Biscuits</p>
+        </div>
+
+        <div class="movie-box">
+            <img src="img/william.jpeg" width="100px">
+            <p>Zahn McClarnon</p>
+            <p style="color: grey;">William Lopez</p>
+        </div>
+
+        <div class="movie-box">
+            <img src="img/skully.jpeg" width="100px">
+            <p>Graham Greene</p>
+            <p style="color: grey;">Skully</p>
+        </div>
+    </div>
+</div>
+
+<div class="epi">
+    <h1 style="padding: 10px;">EPISODES</h1>
+    <div class="ktotal">
+        <div class="ktitle">
+            <h3 style="color: red;">E01 - Chafa</h3>
+            <p style="color: grey;">9 Jan 2024</p>
+            <p>Young Maya Lopez leaves her hometown of Tamaha, Oklahoma following her mother's death and moves to New York City, where Wilson Fisk raises her to be a ruthless assassin.</p>
+        </div>
+
+        <div class="ktitle">
+            <h3 style="color: red;">E02 - Lowak</h3>
+            <p style="color: grey;">9 Jan 2024</p>
+            <p>Maya enlists her disapproving family to help take down Fisk while experiencing strange visions.</p>
+        </div>
+
+        <div class="ktitle" >
+            <h3 style="color: red;">E03 - Tuklo</h3>
+            <p style="color: grey;">9 Jan 2024</p>
+            <p>Maya Lopez's ruthless behaviour in New York City catches up with her in her hometown.</p>
+        </div>
+
+        <div class="ktitle">
+            <h3 style="color: red;">E04 - Taloa</h3>
+            <p style="color: grey;">9 Jan 2024</p>
+            <p>Maya finds herself at a crossroads after learning more about her past and its dangerous shadows.</p>
+        </div>
+
+        <div class="ktitle" >
+            <h3 style="color: red;">E05 - Maya</h3>
+            <p style="color: grey;">9 Jan 2024</p>
+            <p>The lives of Maya's family hang in the balance when Fisk's army storms the Choctaw Nation powwow.</p>
+        </div>
+
+        <div class="end">
+            <h3 class="explore-movies" style="cursor: pointer; background-color: #810000; color: white; border-style: solid; border-color: white;"><a style="color: white;" href="movies.html">MOVIES</a></h3>
+            <h3 class="explore-movies" style="cursor: pointer; background-color: #810000; color: white; border-style: solid; border-color: white;"><a style="color: white;" href="series.html">SERIES</a></h3>
+            <h3 class="explore-movies" style="cursor: pointer; background-color: #810000; color: white; border-style: solid; border-color: white;"><a style="color: white;" href="comming.html">SOON</a></h3>
+            <h3 class="explore-movies" style="cursor: pointer; background-color: #810000; color: white; border-style: solid; border-color: white;"><a style="color: white;" href="marvel.html">HOME</a></h3>
+            </div>
+
+    </div>
+</div>
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="headingtext">|HASH MARVEL</h2>
+                <p>This web full of MARVEL STUDIOS collections MOVIES , SERIES , FUTURE MOVIES , DAILY UPDATES , NEWS.
+                    Here you know everything about MARVEL STUDIOS. Detailed , simple and intreseting website for MARVEL
+                    CINEMATIC UNIVERSE. Excitement is gaurented if any issues report on the below contact.</p><br>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color:#ffffff ;"> -| <a href=""
+                            style="text-decoration: none; color: white;">marvel_tamilan_2.0</a></i><br>
+                    <i class="fa-brands fa-youtube" style="color: #ffffff;"> -| <a href=""
+                            style="text-decoration: none; color: white;">MARVEL TAMILAN 2.0</a></i><br>
+                    <i class="fa-brands fa-linkedin" style="columns: #ffffff;"> -| <a href=""
+                            style="text-decoration: none; color: white;">ABI VARSAN P</a></i>
+                </div>
+            </div>
+        </div>
+
+        <p>marveltamilan2.0@gmail.com</p>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

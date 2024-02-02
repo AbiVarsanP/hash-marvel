@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body bgcolor="black" style="color: white;">
+
+    <!--navbar-->
+
+    <nav class="navbar">
+
+        <div class="menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars" style="color: white;"></i>
+        </div>
+
+        <h1 style="color: red;">HASH MARVEL</h1>
+
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="marvel.html">| HOME</a></p>
+            <p class="navbar-link"><a href="https://en.wikipedia.org/wiki/Marvel_Cinematic_Universe">| WIKIPEDIA</a></p>
+            <p class="navbar-link"><a href="comming.html">| UPDATES</a></p>
+            <p class="navbar-link"><a href="">| NEWS</a></p>
+        </div>
+
+    </nav>
+    <hr>
+
+    <!--side nav-->
+    <div class="side-nav">
+        <p class="xmark" style="text-align: right;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-nav-bar">
+            <p class="side-nav-bar-links"><a href="marvel.html">| HOME</a></p>
+            <p class="side-nav-bar-links"><a href="https://en.wikipedia.org/wiki/Marvel_Cinematic_Universe">WIKIPEDIA</a></p>
+            <p class="side-nav-bar-links"><a href="comming.html">UPDATES</a></p>
+            <p class="side-nav-bar-links"><a href="">NEWS</a></p>
+        </div>
+    </div>
+
+
+    <!--movies-->
+    <div class="movies-section">
+        <form class="movies-search">
+            <input type="text" id="search" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+
+        <div class="movies" id="movies">
+
+            <div class="movie-box">
+                <img src="img/ironman1.jpg" width="150px">
+                <p>Iron Man 1</p>
+            </div>
+    
+            <div class="movie-box">
+                <img src="img/hulk.jpg" width="150px">
+                <p>Incridble Hulk</p>
+            </div>
+    
+            <div class="movie-box">
+                <img src="img/ironman2.jpg" width="150px">
+                <p>Iron Man 2</p>
+            </div>
+    
+            <div class="movie-box">
+                <img src="img/thor.jpg" width="150px">
+                <p>Thor</p>
+            </div>
+    
+            <div class="movie-box">
+                <img src="img/captain1.jpg" width="150px">
+                <p>Captain America: The First Avenger</p>
+            </div>
+
+            <div class="movie-box">
+                <img src="img/theavengers.jpg" width="150px">
+                <p>The Avengers</p>
+            </div>
+    
+            <div class="movie-box">
+                <img src="img/i3.jpg" width="150px">
+                <p>Iron Man 3</p>
+            </div>
+    
+            <div class="movie-box">
+                <img src="img/thordark.jpg" width="150px">
+                <p>Thor:The Dark World</p>
+            </div>
+    
+            <div class="movie-box">
+                <img src="img/capwinter.jpg" width="150px">
+                <p>Captain America:The Winter Soldier</p>
+            </div>
+    
+            <div class="movie-box">
+                <img src="img/guardians.jpg" width="150px">
+                <p>Guardians of the Galaxy</p>
+            </div>
+
+            <div class="movie-box">
+                <img src="img/age.jpg" width="150px">
+                <p>Avengers:Age of Ultron</p>
+            </div>
+    
+            <div class="movie-box">
+                <img src="img/antman.jpg" width="150px">
+                <p>Ant-Man</p>
+            </div>
+    
+            <div class="movie-box">
+                <img src="img/civilwar.jpg" width="150px">
+                <p>Captain America:Civil War</p>
+            </div>
+    
+            <div class="movie-box">
+                <img src="img/drr.webp" width="150px">
+                <p>Doctor Strange</p>
+            </div>
+    
+            <div class="movie-box">
+                <img src="img/guardian2.jpg" width="150px">
+                <p>Guardians of the Galaxy Vol.2</p>
+            </div>
+
+            <div class="movie-box">
+                <img src="img/spiderhome.webp" width="150px">
+                <p>Spider-Man:Homecoming</p>
+            </div>
+    
+            <div class="movie-box">
+                <img src="img/thorrag.jpg" width="150px">
+                <p>Thor:Ragnarok</p>
+            </div>
+    
+            <div class="movie-box">
+                <img src="img/blackpanther.jpg" width="150px">
+                <p>Black Panther</p>
+            </div>
+    
+            <div class="movie-box">
+                <img src="img/infinity.jpg" width="150px">
+                <p>Avengers:Infinity War</p>
+            </div>
+    
+            <div class="movie-box">
+                <img src="img/wasp.jpg" width="150px">
+                <p>Ant-Man and the Wasp</p>
+            </div>
+
+            <div class="movie-box">
+                <img src="img/captainmarvel.webp" width="150px">
+                <p>Captain Marvel</p>
+            </div>
+    
+            <div class="movie-box">
+                <img src="img/endgame.jpg" width="150px">
+                <p>Avengers:Endgame</p>
+            </div>
+    
+            <div class="movie-box">
+                <img src="img/farfrom.jpg" width="150px">
+                <p>Spider-Man:Far From Home</p>
+            </div>
+
+            <div class="movie-box">
+                <img src="img/blackwidow.jpg" width="150px">
+                <p>Black Widow</p>
+            </div>
+    
+            <div class="movie-box">
+                <img src="img/shangchi.jpg" width="150px">
+                <p>Shang-Chi</p>
+            </div>
+    
+            <div class="movie-box">
+                <img src="img/eternals.jpg" width="150px">
+                <p>Eternals</p>
+            </div>
+    
+            <div class="movie-box">
+                <img src="img/nowayhome.jpg" width="150px">
+                <p>Spider-Man:No Way Home</p>
+            </div>
+    
+            <div class="movie-box">
+                <img src="img/mom.jpg" width="150px">
+                <p>Doctor Strange in the Multiverse of Madness</p>
+            </div>
+
+            <div class="movie-box">
+                <img src="img/thunder.jpg" width="150px">
+                <p>Thor:Love & Thunder</p>
+            </div>
+    
+            <div class="movie-box">
+                <img src="img/wakanda.jpg" width="150px">
+                <p>Black Panther:Wakanda Forever</p>
+            </div>
+    
+            <div class="movie-box">
+                <img src="img/ant3.jpg" width="150px">
+                <p>Ant-Man and the Wasp:Quantumania</p>
+            </div>
+    
+            <div class="movie-box">
+                <img src="img/vol3.jpg" width="150px">
+                <p>Guardians of the Galaxy Vol.3</p>
+            </div>
+    
+            <div class="movie-box">
+                <img src="img/themarvels.webp" width="150px">
+                <p>The Marvels</p>
+            </div>
+        </div>
+
+        <div class="end">
+            <h3 class="explore-movies" style="cursor: pointer; background-color: #810000; color: white; border-style: solid; border-color: white;"><a style="color: white;" href="series.html">SERIES </a></h3>
+            <h3 class="explore-movies" style="cursor: pointer; background-color: #810000; color: white; border-style: solid; border-color: white;"><a style="color: white;" href="comming.html">SOON</a></h3>
+            <h3 class="explore-movies" style="cursor: pointer; background-color: #810000; color: white; border-style: solid; border-color: white;"><a style="color: white;" href="marvel.html">HOME</a></h3>
+            </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="headingtext">|HASH MARVEL</h2>
+                <p>This web full of MARVEL STUDIOS collections MOVIES , SERIES , FUTURE MOVIES , DAILY UPDATES , NEWS.
+                    Here you know everything about MARVEL STUDIOS. Detailed , simple and intreseting website for MARVEL
+                    CINEMATIC UNIVERSE. Excitement is gaurented if any issues report on the below contact.</p><br>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color:#ffffff ;"> -| <a href=""
+                            style="text-decoration: none; color: white;">marvel_tamilan_2.0</a></i><br>
+                    <i class="fa-brands fa-youtube" style="color: #ffffff;"> -| <a href=""
+                            style="text-decoration: none; color: white;">MARVEL TAMILAN 2.0</a></i><br>
+                    <i class="fa-brands fa-linkedin" style="columns: #ffffff;"> -| <a href=""
+                            style="text-decoration: none; color: white;">ABI VARSAN P</a></i>
+                </div>
+            </div>
+        </div>
+
+        <p>marveltamilan2.0@gmail.com</p>
+    </div>
+
+
+    <script src="movies.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
